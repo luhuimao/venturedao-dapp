@@ -1,0 +1,67 @@
+{
+  "name": "template",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@babel/plugin-proposal-class-properties": "^7.18.6",
+    "@babel/preset-env": "^7.20.2",
+    "@babel/preset-react": "^7.18.6",
+    "@pefish/js-coin-eth": "^0.7.2",
+    "@pefish/js-node-assist": "^1.0.1",
+    "@pefish/js-util-httprequest": "^0.2.0",
+    "@pefish/js-util-time": "^0.1.1",
+    "@progress/kendo-react-dateinputs": "^4.10.0",
+    "@walletconnect/web3-provider": "^1.2.2",
+    "antd": "^4.6.6",
+    "clipboard": "^2.0.6",
+    "ethers": "^6.0.8",
+    "mobx": "^5.15.7",
+    "mobx-react": "^6.3.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "^3.4.3",
+    "solc": "^0.7.2",
+    "typescript": "^4.0.3",
+    "web3": "1.2.8"
+  },
+  "homepage": ".",
+  "scripts": {
+    "start": "cross-env REACT_APP_DEPLOY_ENV=local react-app-rewired start",
+    "start-prod": "cross-env REACT_APP_DEPLOY_ENV=prod react-app-rewired start",
+    "build": "cross-env REACT_APP_DEPLOY_ENV=local react-app-rewired build",
+    "build-prod": "cross-env REACT_APP_DEPLOY_ENV=prod react-app-rewired build",
+    "test": "react-app-rewired test",
+    "eject": "react-app-rewired eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@babel/helper-call-delegate": "^7.11.4",
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^11.0.4",
+    "@testing-library/user-event": "^12.1.6",
+    "@types/antd": "^1.0.0",
+    "@types/jest": "^26.0.14",
+    "@types/node": "^14.11.2",
+    "@types/react": "^16.9.49",
+    "@types/react-dom": "^16.9.8",
+    "@types/react-responsive": "^8.0.2",
+    "@types/react-router-dom": "^5.1.5",
+    "cross-env": "^7.0.2",
+    "react-app-rewired": "^2.1.6"
+  }
+}
